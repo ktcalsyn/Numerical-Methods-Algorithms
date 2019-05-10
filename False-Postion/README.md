@@ -1,7 +1,7 @@
 # False Positon
 
 ## Getting Started:
-This MATLAB algoithm uses the False Position method to determine the root of a function. 
+This MATLAB algorithm uses the False Position method to determine the root of a function. 
 This is a bracketing method and requires 2 guesses that brackets the root (one on each side of the root)
 The user is able to assign a desired relative error and/or wanted number of iterations (if not assigned the program has default values).
 Because of this the user must put in the first 3 inputs but the remaining 4th and 5th are optional.
@@ -23,4 +23,4 @@ root: root of function
 ## Limtations:
 This algorithm is dependant on the user to assign the relative error so the accuracy can be changed dependant on the situation needed. 
 One potential issue is that the user is required to set the lower and upper guess which can make the number of iterations needed vary
-depending on how good the guess it. It also can't tell you all the roots of a function just the root between the lower and upper bracketing guesses.
+depending on how good the guess it. It also will not tell the user all the roots of a function just the root between the lower and upper bracketing guesses.
